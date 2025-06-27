@@ -1,0 +1,11 @@
+:: Define a variável de ambiente
+set PIPELINE_VERSION=2.4.0
+
+:: Aplica os recursos de escopo do cluster
+kubectl apply -k "github.com/kubeflow/pipelines/manifests/kustomize/cluster-scoped-resources?ref=%PIPELINE_VERSION%"
+
+:: Aguarda a criação do CRD necessário
+kubectl wait --for condition=established --timeout=60s crd/applications.app.k8s.io
+
+:: Aplica os recursos da instalação plataforma-agnóstica
+kubectl apply -k "github.com/kubeflow/pipelines/manifests/kustomize/env/platform-agnostic?ref=%PIPELINE_VERSION%"

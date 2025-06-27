@@ -20,3 +20,6 @@ RAW_DATA = os.path.join(RAW_DATA_DIR, 'data.csv')
 
 PROCESSED_DIR = os.path.join(PROJECT_ROOT, 'artifacts', 'processed')
 MODELS_DIR = os.path.join(PROJECT_ROOT, 'artifacts', 'models')
+MODEL_PATH = os.path.join(MODELS_DIR, 'model.pkl')
+
+SCALER_PATH =  os.path.join(PROCESSED_DIR, 'scaler.pkl')
