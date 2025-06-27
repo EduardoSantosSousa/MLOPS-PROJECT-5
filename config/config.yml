@@ -1,0 +1,5 @@
+project_id: "serious-cat-455501-d2"
+
+gcs_config:
+  bucket_name: "mlops-project-five"
+  file_name: "data.csv"

@@ -1,0 +1,13 @@
+pandas
+numpy
+setuptools
+scikit-learn
+Flask
+joblib
+matplotlib
+seaborn
+mlflow
+kfp
+google-cloud-storage==2.15.0
+pyyaml
+mlflow

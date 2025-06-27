@@ -1,0 +1,14 @@
+artifact_uri: file:///D:/MLOPS/MLOPS_PROJECT_FIVE/mlruns/0/7055b842f754410ba9bf05498b2afffe/artifacts
+end_time: 1751033087932
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7055b842f754410ba9bf05498b2afffe
+run_name: dazzling-deer-507
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1751033081232
+status: 3
+tags: []
+user_id: eduar
