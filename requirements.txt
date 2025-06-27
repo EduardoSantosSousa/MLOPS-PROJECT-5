@@ -7,7 +7,7 @@ joblib
 matplotlib
 seaborn
 mlflow
-kfp
+kfp==1.8.22
 google-cloud-storage==2.15.0
 pyyaml
 mlflow
