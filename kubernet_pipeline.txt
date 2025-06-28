@@ -13,3 +13,6 @@ kubectl apply -k "github.com/kubeflow/pipelines/manifests/kustomize/env/platform
 
 Verify that the Kubeflow Pipelines UI is accessible by port-forwarding:
 kubectl port-forward -n kubeflow svc/ml-pipeline-ui 8080:80
+
+Adicionando as credenciais do google para fazer a etapa de ingestão de dados: 
+kubectl create secret generic gcp-sa-key --from-file=credentials.json=D:\MLOPS\MLOPS_PROJECT_FIVE\serious-cat-455501-d2-ae99f9781ac5.json
